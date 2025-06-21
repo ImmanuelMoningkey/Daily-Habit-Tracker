@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screen1_task.dart';
+import 'package:project_flutter/screen1_home.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,6 +10,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: Screen1Task());
+    return const MaterialApp(home: HomeScreen());
   }
 }
