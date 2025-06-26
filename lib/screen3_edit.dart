@@ -39,7 +39,7 @@ class EditScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: TextField(
-                      decoration: InputDecoration(hintText: 'Edit Task'),
+                      decoration: InputDecoration(hintText: 'Edit Task',border: OutlineInputBorder(borderSide: BorderSide.none,),),
                       style: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,

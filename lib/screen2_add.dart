@@ -35,7 +35,7 @@ class AddScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: TextField(
-                    decoration: InputDecoration(hintText: 'Tambahkan Task'),
+                    decoration: InputDecoration(hintText: 'Tambahkan Task',border: OutlineInputBorder(borderSide: BorderSide.none,),),
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
